@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Looping and Enumerators"
-date:       2018-05-07 19:50:55 +0000
+date:       2018-05-07 15:50:56 -0400
 permalink:  looping_and_enumerators
 ---
 
@@ -111,7 +111,7 @@ OUTPUT
 
 Would you look at that! We did it! 
 
-These enumerators extend the functionality of traditional *for* loops by allowing us to *yield* values to a block of code and determine what type of data we want returned (even boolean values!). They also allow us to go deeper into our hashes or arrays, which may contain yet more hashes and arrays, without constantly writing more *for* loops. Looping correctly and efficiently is an essential skill and in the vain of KISS (Keep It Simple Stupid) and DRY (Don't Repeat Yourself) it is important to equip yourself with skills that allow you to do so. Enumerators from Ruby's Enumerable class are just some of those tools. Hopefully, with this brief introduction into their use, you will be more inclined to look into how they tools can help you.
+These enumerators extend the functionality of traditional *for* loops by allowing us to *yield* values to a block of code and determine what type of data we want returned (even boolean values!). They also allow us to go deeper into our hashes or arrays, which may contain yet more hashes and arrays, without constantly writing more *for* loops. Looping correctly and efficiently is an essential skill and in the vain of KISS (Keep It Simple Stupid) and DRY (Don't Repeat Yourself) it is important to equip yourself with skills that allow you to do so. Enumerators from Ruby's Enumerable class are just some of those tools. Hopefully, with this brief introduction into their use, you will be more inclined to look into how these tools can help you.
 
 
 
