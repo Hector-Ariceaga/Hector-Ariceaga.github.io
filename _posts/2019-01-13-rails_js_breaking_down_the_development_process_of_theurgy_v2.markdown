@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails + JS: Breaking Down the Development Process of Theurgy V2"
-date:       2019-01-14 01:40:18 +0000
+date:       2019-01-13 20:40:19 -0500
 permalink:  rails_js_breaking_down_the_development_process_of_theurgy_v2
 ---
 
