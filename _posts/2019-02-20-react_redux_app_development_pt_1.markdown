@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React/Redux App Development Pt. 1"
-date:       2019-02-20 20:40:10 +0000
+date:       2019-02-20 15:40:11 -0500
 permalink:  react_redux_app_development_pt_1
 ---
 
@@ -14,7 +14,7 @@ Why a rails API for the backend?
 1) This application should stick to some standard functionality, so flexibility down the road shouldn't be much of a concern (flexibility is sometimes  noted as a potential issue for using the Rails framework in development) 
 2) It is very quick to launch and lends to declarative code, which can help with future development.
 
-My hope is that since I am sticking to straightforward CRUD actions, at least in the beginning, that there shouldn't be any significant performance issues later if I do add more features later.
+My hope is that since I am sticking to straightforward CRUD actions, at least in the beginning, that there shouldn't be any significant performance issues later if I do add more features.
 
 I started by setting up the Rails API first so that my front end would have seed data to work with later. I wrote some RSPEC tests to test the functionality of the CRUD routes and FactoryBot to generate some fun generated data for the tests. After completing the basic routes, I wanted to start with for articles and comments I moved to the front-end.
 
