@@ -16,7 +16,7 @@ Why a rails API for the backend?
 
 My hope is that since I am sticking to straightforward CRUD actions, at least in the beginning, that there shouldn't be any significant performance issues later if I do add more features.
 
-I started by setting up the Rails API first so that my front end would have seed data to work with later. I wrote some RSPEC tests to test the functionality of the CRUD routes and FactoryBot to generate some fun generated data for the tests. After completing the basic routes, I wanted to start with for articles and comments I moved to the front-end.
+I started by setting up the Rails API first so that my front end would have seed data to work with later. I wrote some RSPEC tests to test the functionality of the CRUD routes and FactoryBot to generate some fun generated data for the tests. After completing the basic routes I wanted to start with for articles and comments, I moved to the front-end.
 
 For the front end I decided to use React. This will allow the front end to be broken into nice clean components that can be well organized. The virtual DOM that is used in React will also help speed up the application by rendering only the updated parts of the page, which should make for a better user experience. Furthermore, if I do want to scale the app upwards later down the line, implementing testing will be easier.
 
